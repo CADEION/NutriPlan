@@ -1,16 +1,43 @@
-# meals
+# NutriPlan
 
-A new Flutter project.
+**Technologies Used:** Flutter, Riverpod, Firebase  
+**Date:** Sep 2024
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+The Meal Planner App allows users to dynamically filter and plan their meals based on calorie count, dietary preferences, and high-calorie options. Built with Flutter, Riverpod, and Firebase, it offers real-time updates and a scalable architecture.
 
-A few resources to get you started if this is your first Flutter project:
+## Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Advanced Filtering System:**  
+  Dynamic filtering based on:
+  - Calorie Count
+  - Dietary Preferences (Veg/Non-Veg, Gluten-Free)
+  - High-Calorie Options
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Optimized State Management:**  
+  Efficient state management with Riverpod, providing:
+  - Reactive UI updates
+  - Decoupled business logic
+
+- **Real-Time Data Sync:**  
+  Asynchronous data handling with Firebase Firestore, ensuring:
+  - Real-time updates on meals and user preferences
+
+- **Scalable Architecture:**  
+  Modular and scalable design following SOLID principles, enhancing:
+  - Code maintainability and testability
+  - Performance optimization
+
+## Screenshots
+
+![Home Screen](assets/screenshots/home_screen.png)
+![Meal Details](assets/screenshots/meal_details.png)
+
+## Installation
+
+To run this app locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/meal-planner-app.git
